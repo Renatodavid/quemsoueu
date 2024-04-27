@@ -334,6 +334,13 @@ h3 {
 .about-btn button:hover {
   background: var(--first-color-hover);
 }
+img{
+  border-radius: 100px;
+  box-shadow: #781db5 0px 5px 15px;
+  
+
+
+}
 
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box {
@@ -490,6 +497,7 @@ textarea {
 .form-button i {
   font-size: 18px;
   rotate: -45deg;
+  
 }
 
 /* ----- FOOTER BOX ----- */
@@ -521,10 +529,12 @@ footer {
 .footer-social-icons {
   display: flex;
   gap: 30px;
+  
 }
 .bottom-footer {
   font-size: 14px;
   margin-top: 10px;
+  
 }
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
@@ -536,6 +546,7 @@ footer {
   .image img {
     width: 320px;
     height: 320px;
+    
   }
 }
 
